@@ -62,9 +62,6 @@ To run this project locally, follow these steps:
 - moviepy
 - CSS
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Footer
 
