@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReelGen - Reel Video Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: #0779e4 3px solid;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border: #e1e1e1 1px solid;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        code {
+            background: #e4e4e4;
+            padding: 2px 5px;
+            border-radius: 4px;
+            display: block;
+            margin: 10px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ReelGen - Reel Video Generator</h1>
+    </header>
+    <div class="container main">
+        <h2>Overview</h2>
+        <p>ReelGen is a web application that allows users to generate short reels from YouTube videos. Users can input a YouTube URL, specify the duration for each reel, and the number of reels they want to generate. The application processes the video and provides download links for each generated reel.</p>
+        
+        <h2>Features</h2>
+        <ul>
+            <li>Input a YouTube URL to generate reels</li>
+            <li>Specify the duration of each reel (15, 30, or 45 seconds)</li>
+            <li>Generate multiple reels from the same video</li>
+            <li>Download the generated reels</li>
+            <li>Preview the reels before downloading</li>
+        </ul>
+        
+        <h2>Installation</h2>
+        <p>To run this project locally, follow these steps:</p>
+        <h3>Backend Setup</h3>
+        <p>1. Ensure you have Python installed on your system.</p>
+        <p>2. Install the required Python packages:</p>
+        <code>pip install flask pytube moviepy flask-cors</code>
+        <p>3. Run the Flask server:</p>
+        <code>python app.py</code>
+        
+        <h3>Frontend Setup</h3>
+        <p>1. Ensure you have Node.js and npm installed on your system.</p>
+        <p>2. Install the required packages:</p>
+        <code>npm install</code>
+        <p>3. Run the React development server:</p>
+        <code>npm start</code>
+        
+        <h2>Usage</h2>
+        <p>1. Open your web browser and navigate to <code>http://localhost:3000</code>.</p>
+        <p>2. Enter a valid YouTube URL.</p>
+        <p>3. Specify the duration and number of reels.</p>
+        <p>4. Click the 'Generate Reels' button and wait for the process to complete.</p>
+        <p>5. Preview and download the generated reels.</p>
+        
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>React</li>
+            <li>Flask</li>
+            <li>pytube</li>
+            <li>moviepy</li>
+            <li>CSS</li>
+        </ul>
+        
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License.</p>
+    </div>
+    <footer>
+        <p>ReelGen &copy; 2024</p>
+    </footer>
+</body>
+</html>
